@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+
+ <title>Music Chant</title>
+
+ <!-- Bootstrap -->
+ <link href="css/bootstrap.min.css" rel="stylesheet">
+ <link rel="stylesheet" href="styles.css">
+
+ <!-- HTML5 Shim and Respond.js IE8 support of HTML5
+ elements and media queries -->
+ <!-- WARNING: Respond.js doesn't work if you view the
+ page via file:// -->
+ <!--[if lt IE 9]>
+ <script src="https://oss.maxcdn.com/libs/html5shiv/
+3.7.0/html5shiv.js"></script>
+ <script src="https://oss.maxcdn.com/libs/respond.js/
+1.4.2/respond.min.js"></script>
+<![endif]-->
+
+</head>
+
+<body data-spy="scroll" data-target=".navbar-collapse">
+
+ <div class="navbar navbar-inverse navbar-fixed-top ">
+
+    <div class="container">
+
+          <div class="navbar-header">
+
+               <a href="" class="navbar-brand">Music Chant</a>
+
+               <button type="button" class="navbar-toggle" data-toggle="collapse"
+               data-target=".navbar-collapse">
+
+                   <span class="sr-only">Toggle navigation</span>
+
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+
+               </button>
+
+          </div>
+
+    <div class="navbar-collapse ">
+
+           <ul class="nav navbar-nav">
+               <li class="active"><a href="#home">Home</a></li>
+               <li><a href="#info_header">About</a></li>
+               <li><a href="#download">Download</a></li>
+           </ul>
+
+            <form class="navbar-form navbar-right">
+                 <div class="form-group">
+                    <input type="text" class="form-control" name="username" placeholder="username"/>
+                    <input type="password" class="form-control" name="password" placeholder="password"/>
+                 </div>
+
+                 <div class="btn btn-default btn-primary">Login</div>
+            </form> 
+
+      </div>
+    </div>
+</div>
+
+<div class="jumbotron" id="home">
+
+  <div class="container">
+
+    <div class="header">
+
+      <h1>Power your music skills with our interactive exercises and 24/7 assistance</h1>
+      <h2>Ready to teach you one on one from 100 instruments to choose from!</h2>
+
+
+      <button type='button' class='btn btn-success btn-lg login' data-toggle="modal" data-target='#myModal'>
+        Sign up today!
+      </button>  
+
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+
+        <div class="modal-dialog" role="document">
+
+          <div class="modal-content">
+
+            <div class="modal-header">
+
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+
+                <h4 class="modal-title text" id="myModalLabel">Registration form</h4>
+
+            </div>
+
+            <div class="modal-body text">
+
+              <form class="navbar-form" id="modal_form">
+
+                <div class="form-group modal-text">
+                    <label for="username">Username</label>
+                    <input type="text" class="form-control" id="modal-input" name="username"></input>
+                </div>
+                <div class="form-group modal-text">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="modal-input" name="email"></input>
+                </div>
+                <div class="form-group modal-text">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="modal-input" name="password"></input>
+                </div>
+                <div class="form-group modal-text">
+                    <label for="password">Verify Password</label>
+                    <input type="password" class="form-control" id="modal-input" name="password"></input>
+                </div>
+
+              </form>
+
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary submit">Submit</button>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="content">
+
+    <h1 class="info_header" id='info_header'> Learning Music has never been easier!</h1>
+
+
+    <div class='row' id="info_pictures">
+
+      <div class='col-md-4'>
+
+        <p><span class="glyphicon glyphicon-time" ></span></p>
+        <p>Save time and money!</p>
+        <h3>Affordable then most programs, and offers lessons via our moblie app, so you can learn on the go.
+      </div>
+
+      <div class='col-md-4'>
+
+        <p><span class='glyphicon glyphicon-music'></span></p>
+        <p>100 courses to choose!</p>
+        <h3>we offer many different courses from piano, cello, to harmonica.
+
+      </div>
+
+      <div class='col-md-4'>
+
+         <p><span class='glyphicon glyphicon-road'></span></p>
+         <p>Practice at your own pace!</p>
+         <h3>From 12 weeks courses to 36 weeks courses, we offer options for students to learn on their own time.</h3>
+
+      </div>
+
+        </div>
+    </div>
+
+      <div class="download" id="download">
+        <div class='container'>
+          <div class="content" id="download-content">
+
+            <h1 class="download-header">Download our App</h1>
+            <h3>Visit us on the Apple or Google Play store</h3>
+
+            <a href='#'>
+              <img src='images/App-Store-Icon.png'>
+            </a>
+
+
+            <a href='#'>
+              <img src='images/googleplaybadge.png'>
+            </a>
+
+          </div>
+        </div>
+      </div>
+
+       <div class="footer">
+          <br>
+          <p>&copy; Music Chant 2016</p>
+       </div>      
+
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/
+      jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files
+     as needed -->
+
+ <script src="js/bootstrap.min.js"></script>
+
+ <script>
+ $(".jumbotron").css("min-height",$(window).height());
+ </script>
+
+</body>
+</html>

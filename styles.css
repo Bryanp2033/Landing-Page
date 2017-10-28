@@ -1,0 +1,141 @@
+/* Jumbotron */
+.jumbotron{
+    background-image: url(images/guitar.jpeg);
+    background-size: cover;
+}
+
+/* Container within the Jumbotron */
+.jumbotron .container{
+    max-width: 100%;
+}
+
+/* All the text inside the jumbotron */
+.header{
+    padding-top: 20px;
+    color: white;
+}
+
+/* First Line of text inside the jumbotron */
+.header h1 {
+    font-size: 50px;
+    margin:100px;
+    text-align: center;
+}
+
+/* Second Line of text inside the jumbotron */
+.header h2{
+    margin-left: 100px;
+    text-align: center;
+}
+
+/* 'Sign up today' button */
+.login{
+    margin-left: 500px
+}
+
+/* Modal header title */
+.modal-title{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* 'X' close button inside the modal */
+.close{
+    font-size: 30px;
+}
+
+/* text color inside the Registration modal */
+.text{
+    color: black;
+}
+
+/* the form body inside modal */
+.modal-body{
+    margin-left: 20px;
+}
+
+/* Modal form html tag */
+#modal_form{
+    width: 10px;
+}
+
+/* div tags inside modal form */
+.modal-text{
+    margin-top: 20px;
+}
+
+/* label for the form inside the Registration modal */
+label {
+    float: left;
+}
+
+/* modal input inside form */
+#modal-input{
+    height: 35px;
+    width: 500px;
+}
+
+/* The submit button inside the Registration modal */
+.submit{
+    margin-left: 35px;
+    float: left;
+    padding: 10px;
+    font-size: 20px;
+    width: 500px;
+}
+
+
+/* header text inside the about section */
+.info_header {
+    text-align: center;
+}
+
+/* div row of the glyphicons */
+#info_pictures {
+    font-size: 220%;
+    width: 105%;
+}
+
+/* glyphicons itself */
+#info_pictures span {
+    font-size: 175%;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+/* smaller text inside the about section */
+h3 {
+    font-size: 50%;
+}
+
+/* div class containing all tags of the download section */
+#download-content {
+    text-align: center;
+    font-size: 400%;
+    margin-top: 325px;
+}
+
+
+/* Header text of the download header */
+.download-header {
+    font-size: 125%;
+}
+
+/* imgs insides the download section */
+#download-content img {
+    height: 100px;
+    width: 288px;
+}
+
+/* the div class containing the download header text and imgs */
+.download {
+    margin-bottom: 95px;
+}
+
+/* div class containing the footer information */
+.footer {
+    margin-top: 25px;
+    border-top: 1px solid #eaeaea;
+    color: #777;
+    text-align: center;
+}
